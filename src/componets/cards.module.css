@@ -1,0 +1,55 @@
+.container {
+    background: rgb(178, 133, 202);
+    width: 280px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    border: 2px solid rgb(17, 16, 16);
+    border-radius: 10px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 0px 20px 8px rgb(212, 149, 180);
+    -moz-box-shadow: 0px 0px 20px 8px rgb(202, 153, 177);
+    box-shadow: 0px 0px 20px 8px rgb(214, 147, 179);
+  }
+  
+  .container img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 6px rgb(31, 29, 29);
+    -moz-box-shadow: 0px 0px 10px 6px rgb(12, 11, 11);
+    box-shadow: 0px 0px 10px 6px rgb(12, 11, 11);
+  }
+  .container:hover img {
+    -webkit-box-shadow: 10px 10px 5px 5px rgb(174, 107, 177);
+    -moz-box-shadow: 10px 10px 5px 5px rgb(166, 93, 168);
+    box-shadow: 10px 10px 5px 5px rgb(155, 81, 165);
+  }
+  
+  .container div {
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(7, 5, 5);
+    padding-bottom: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-style: sans-serif;
+  }
+  
+  .container div span {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: sans-serif;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
